@@ -1,12 +1,13 @@
 import Image from "next/image";
+import { useState } from "react";
 
 import NavbarIcon from "./NavbarIcon";
 import NavSearch from "./NavSearch";
 
 const Navbar = () => {
   return (
-    <nav className="pl-3 pr-3 py-2 md:py-1 w-full bg-white sticky top-0 z-30">
-      <nav className="flex justify-between items-center max-w-6xl mx-auto h-10 py-5 md:py-7 ">
+    <nav className="sticky top-0 pl-3 pr-3 md:py-1 w-full bg-white z-30">
+      <nav className="flex justify-between items-center max-w-6xl mx-auto h-10 py-5 md:pt-6 ">
         <div className="flex items-center gap-x-2">
           <Image
             src="/assets/linkedin.svg"
@@ -14,7 +15,7 @@ const Navbar = () => {
             width={100}
             height={40}
             objectFit="contain"
-            className="min-w-fit"
+            className="min-w-[100px]"
           />
           <NavSearch />
         </div>
