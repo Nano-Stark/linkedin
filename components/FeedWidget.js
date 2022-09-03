@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import PostInput from "./PostInput";
-import PostWidget from "./PostWidget.";
+import PostWidget from "./PostWidget";
 
 const FeedWidget = () => {
   const [view, setView] = useState(false);
