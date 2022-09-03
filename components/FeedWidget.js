@@ -71,7 +71,7 @@ const FeedWidget = () => {
           <div className="text-[12px] font-semibold text-gray-700 px-2 py-4">
             <h4 className="mb-2 text-sm">Recent</h4>
             <h6 className="truncate leading-6">
-              Python's active Developers community
+              Pythons active Developers community
             </h6>
             <h6 className="truncate leading-6">
               Blockchain developers community
@@ -85,7 +85,7 @@ const FeedWidget = () => {
           <div className="text-[12px] font-semibold px-2 mt-1 text-gray-700">
             <h4 className="mb-1 text-sm text-blue-800">Groups</h4>
             <h6 className="truncate leading-6">
-              Python's active Developers community
+              Pythons active Developers community
             </h6>
             <h6 className="truncate leading-6">
               Blockchain developers community
@@ -207,7 +207,7 @@ const FeedWidget = () => {
               />
             </div>
             <p className="font-normal text-base text-center pt-5 text-gray-800">
-              See who's view your profile in the last 90 days
+              See who is view your profile in the last 90 days
             </p>
             <div className="font-semibold text-base mt-3 py-2 px-5 text-blue-900 border-2 border-blue-900 rounded-full">
               <button>Try for free!</button>

@@ -88,7 +88,7 @@ const NetworkWidget = () => {
         <div className="px-4 text-center mt-4 border-b-[1.02px]">
           <p className="text-black">Add personal Contacts</p>
           <p className="text-[12px] mb-2">
-            We’ll periodically import and store your contacts to help you and
+            We will periodically import and store your contacts to help you and
             others connect. You choose who to connect to and who to invite.
             Learn more
           </p>
