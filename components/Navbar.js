@@ -5,8 +5,8 @@ import NavSearch from "./NavSearch";
 
 const Navbar = () => {
   return (
-    <nav className="pl-3 pr-3 py-2 md:py-1 w-full bg-white sticky top-0 z-30">
-      <nav className="flex justify-between items-center max-w-6xl mx-auto h-10 py-5 md:py-7 ">
+    <nav className="pl-3 pr-3 py-2 md:py-1 w-full bg-white sticky top-0 z-30 shadow-md">
+      <nav className="flex justify-between items-center max-w-6xl mx-auto px-5 h-10 py-5 md:py-7 ">
         <div className="flex items-center gap-x-2">
           <Image
             src="/assets/linkedin.svg"

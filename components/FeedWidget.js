@@ -6,7 +6,7 @@ import PostWidget from "./PostWidget.";
 const FeedWidget = () => {
   const [view, setView] = useState(false);
   return (
-    <div className="pl-2 pr-2 flex flex-col sm:flex-row w-full max-w-6xl justify-between mx-auto pt-7 gap-x-7">
+    <div className="px-5 flex flex-col sm:flex-row w-full max-w-6xl justify-between mx-auto pt-7 gap-x-7 pb-40">
       <section className="flex flex-col gap-y-2 mb-5">
         <section className="bg-white w-full sm:w-56 relative rounded-md">
           <img
@@ -64,7 +64,7 @@ const FeedWidget = () => {
         </section>
 
         <section
-          className={`bg-white w-full sm:w-56 rounded-md sm:sticky top-14 ${
+          className={`bg-white w-full sm:w-56 rounded-md sm:sticky top-20 ${
             !view && "hidden"
           } sm:block`}
         >
@@ -188,7 +188,7 @@ const FeedWidget = () => {
             </div>
           </section>
         </section>
-        <section className="bg-white w-80 rounded-md p-4 pt-2 sticky top-14">
+        <section className="bg-white w-80 rounded-md p-4 pt-2 sticky top-20">
           <div className="flex justify-end">
             <span className="text-sm">Ad ...</span>
           </div>
